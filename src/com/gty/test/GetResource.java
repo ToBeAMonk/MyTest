@@ -4,7 +4,10 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
-
+/**
+ *主要讲的是java的getResourceAsStream()的用法，一个简单的例子。
+ * @date 2018年11月29日 下午6:50:43
+ */
 public class GetResource {
 	private String getResource(String path) throws IOException {
 		// 返回读取指定资源的输入流
